@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laktavelling.lk </title>
+        <link rel="stylesheet" href="Design.css">
+        <style>
+        </style>
+    </head>
+<body>
+    <div id="logo">
+    <img src="Image/New Logo.png">
+    </div>
+    
+    <div class="sticky"> 
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="Destination.html">Destination</a>
+        <a href="Transport.html">Transport</a>
+        <a href="Guide.html">Guide</a>      
+        <a href="Things to do.html">Things to do</a>
+        <a href="Hotels & Rooms.html">Hotels & Rooms</a>
+        <a href="Contact.html">Contact</a>
+            <div class="drop">
+                <button class="dropb">More</button>
+                <div class="drop-content">
+                    <a href="Travel Map.html">Travel Map</a>
+                    <a href="Travel Gallery.html">Travel Gallery</a>
+                    <a href="About.html">About</a>
+                </div>
+            </div>    
+
+        <div class="search-container">
+        <form>
+            <button class="btn">Sign In</button>
+            <input type="text" placeholder="Search.." name="search"> 
+            <button type="submit">GO<i class="search1"></i></button>
+        </form>
+    </div>
+    </div>
+    </div><br>
+    
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 10</div>
+  <img src="Image/Temple-in-Colombo-Sri-Lanka.jpg" style="width:100%">
+    <div class="text">Sri Lanka</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 10</div>
+  <img src="Image/sigiriya-gallery.jpg" style="width:100%">
+    <div class="text">Sri Lanka</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="Image/3.jpg" style="width:100%">
+  <div class="text">Sri Lanka</div>
+</div>
+        
+<div class="mySlides fade">
+  <div class="numbertext">4 / 10</div>
+  <img src="Image/earlshotels-corporate-header-3.jpg" style="width:100%">
+  <div class="text">Sri Lanka</div>
+</div>
+        
+<div class="mySlides fade">
+  <div class="numbertext">5 / 10</div>
+  <img src="Image/5c0e4b088da8f06495fb25a5_places%20to%20visit%20in%20anuradhapura.jpg" style="width:100%">
+  <div class="text">Sri Lanka</div>
+</div> 
+        
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>        
+
+</div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+    
+</script><br>
+    
+    <div class="dh">
+        <h1>Explore Sri LanKa</h1>
+    </div>
+    <br>
+   
+    <div class="row1">   
+    <div class="trans3">
+        <img src="Image/Sigiriya-1_1024x1024_99656732-8df3-4dde-8de4-a897f4b0952d_1024x1024.jpg">
+    <div class="trans4">
+        <h2><a href="Destination.html">Destination</a></h2>
+        <h2><a href="Transport.html">Transport</a></h2>
+        <h2><a href="Guide.html">Guide</a></h2>
+        <h2><a href="Things to do.html">Things to do</a></h2>
+        <h2><a href="Hotels & Rooms.html">Hotels & Rooms</a></h2>
+        <h2><a href="Travel Map.html">Travel Map</a></h2>
+        <h2><a href="Travel Gallery.html">Travel Gallery</a></h2>
+        </div>
+        </div>
+     
+    <a href="Destination.html">    
+    <div class="trans1">
+        <img src="Image/Sigiriya-1_1024x1024_99656732-8df3-4dde-8de4-a897f4b0952d_1024x1024.jpg">
+    <div class="trans2">
+        <h1>Destination</h1>
+        <p>Get inspired by these popular destination.</p>
+    </div>
+        </div></a>
+       
+    <a href="Transport.html"> 
+    <div class="trans1">
+        <img src="Image/bus.png">
+    <div class="trans2">
+        <h1>Transport</h1>
+        <p>Transport in Sri Lanka</p>
+    </div>
+    </div></a>
+    
+    <a href="Guide.html">    
+    <div class="trans1">
+        <img src="Image/sri-lanka-tourist-driver.jpg">
+    <div class="trans2">
+        <h1>Guide</h1>
+        <p></p>
+    </div>
+    </div></a>
+    
+    <a href="Things to do.html">    
+    <div class="trans1">
+        <img src="Image/Safari_in_Sri_Lanka.jpg">
+    <div class="trans2">
+        <h1>Things to do</h1>
+        <p>Fun and thrilling activities to do in Sri Lanka</p>
+    </div>
+    </div></a>
+        
+     <a href="Hotels & Rooms.html">
+     <div class="trans1">
+        <img src="Image/yimg_Ga5XgV.jpg">
+    <div class="trans2">
+        <h1>Hotels & Rooms</h1>
+        <p></p>
+    </div>
+    </div></a>
+    
+    <a href="Travel Map.html">    
+    <div class="trans1">
+        <img src="Image/map.jpg">
+    <div class="trans2">
+        <h1>Travel Map</h1>
+        <p></p>
+    </div>
+    </div></a>
+       
+    <a href="Travel Gallery.html">   
+    <div class="trans1">
+        <img src="Image/chinese-tourists-on-photography-tour-of-sri-lanka-taking-photos-in-DX5TXN.jpg">
+    <div class="trans2">
+        <h1>Travel Gallery</h1>
+        <p></p>
+    </div>
+    </div></a>
+    </div><br>    
+    
+    <div id="asl">
+        <h1>About Sri Lanka</h1>
+        <p>Sri Lanka is a small island almost like a tiny tear drop that lies in the Indian Ocean which is sometimes known by other names such as " The Lost Paradise ", " The Land Of Serendipity ", " The Resplendent Land " and " The Pearl Of The Indian Ocean " among others by non-natives . Sri Lanka lies to the southwest of the Bay of Bengal and to the southeast of the Arabian Sea. The island seperates itself from the Indian subcontinent by the Gulf of Mannar and the Palk Strait (named after James Palk ). According to the Indian epic poem Ramayana, written thousands of years ago in Sanskrit and an important Hindu text, states how Rama, with the help of an army of vanaras, built a bridge of stones across the sea to Lanka to rescue his wife Sita from the Asura king Ravana.
+        </p>
+        <p>The name Adam's Bridge is a later play than Rama's bridge and derives from the story that South India or Sri Lanka was the site of the biblical earthly paradise ( and hence the lost paradise ), and that Adam's Bridge was created when Adam was expelled from paradise. However the Rama's/Adam's bridge is now only a chain of limestone shoals above the sea level. According to colonial British reports, this is a natural causeway which was formerly complete, but was breached by a violent storm in 1480. The width of the Palk Strait is small enough for the coast of Sri Lanka to be visible from the furthest point near the Indian town of Rameswaram but is not big enough for large ships to pass through so these ships have to make a detour around Sri Lanka to reach the East Asian countries. The island consists mostly of flat-to-rolling coastal plains, with mountains rising only in the south-central part.
+        </p>
+        <p>The climate of Sri Lanka can be described as tropical and warm which is an excellent condition to house one of the world's largest biodiversities.
+        </p>
+        <p>Sri lanka is known for its splendour and new life experiences ranging from mouth-watering delicacies to its extraordinary culture and glamourous festivals. Long before civilisation took place in the west Sri Lanka was already full of vitality , beauty and a well-civilised culture providing a home for many ethnic groups. The cities, palaces, reservoirs, parks, temples, monasteries, monuments and works of art bore testament to the character, imagination, culture, philosophy and faith of the people of Sri Lanka.
+        </p>
+        <p>It is indeed a land like no other ..... the sheer beauty of it can leave you breathless gasping for more . The Sri Lankans themselves are very hospitable as far as hospitability can get . The calm and quiet serenity of the country will undoubtly leave anyone calm and content . But however your senses will always be unappeasable because in Sri Lanka everyday is a new day and full of tranquil beauty that can never be put out in words . Simply breath-taking
+        </p>
+        <p>"To me the beauty of Ceylon lies not so much in its blue seas and golden beaches, its jungles and its mountain peaks, as in its ancient atmosphere. There is no nation, from Egypt of the Pharaohs to modern Britian, in whose literature this island has not at some time been mentioned by one or other of its many names -- Lanka, Serendib, Taprobane, Cellao, Zellan, to recall a few. History lies buried in its sands, and ghosts of romance lurk among its bastioned rocks, for Lanka is very, very old."
+        </p>
+        <p><b>- D. J. G. Hennessy, GREEN AISLES, 1949 - About Sri Lanka</b></p>
+    </div><br>
+    
+    <div id="head01">
+        <h1>Destination</h1>
+    </div>
+    
+    <div class="row1">
+    <a href="Destination-Sigiriya.html">   
+    <div class="trans1">
+        <img src="Image/Sigiriya-1_1024x1024_99656732-8df3-4dde-8de4-a897f4b0952d_1024x1024.jpg">
+    <div class="trans2">
+        <h1>Sigiriya</h1>
+        <p>ANCIENT | HISTORICAL | NATURE</p>
+        </div>
+        </div></a>
+    
+    <a href="Destination-Kandy.html">    
+    <div class="trans1">
+        <img src="Image/kandy-perahera-esala-perahera-17-04-14-13977310500.jpg">
+    <div class="trans2">
+        <h1>Kandy</h1>
+        <p>ANCIENT | HISTORICAL | CULTURAL</p>
+    </div>
+    </div></a>
+       
+       <div class="trans1">
+        <img src="Image/Scenery_in_Yala_National_Park.jpg">
+    <div class="trans2">
+        <h1>Yala</h1>
+        <p>WILDLIFE | NATURE | SAFARI</p>
+    </div>
+    </div>
+    
+    <a href="Destination.html">    
+    <div class="trans5">
+        <img src="Image/Temple-in-Colombo-Sri-Lanka.jpg">
+    <div class="trans6">
+        <br><br><br>
+        <h1>100+</h1>
+        <h1>More</h1>
+        <h1>Destinations</h1>
+     
+    </div>
+    </div></a>
+    </div>
+    
+    <form id="hr"> 
+        <div class="hr">
+            <h1>Hotels & Rooms</h1>
+            <label>Check In</label><br>  
+            <input type="date" name="checkin" required><br>
+            <label>Check Out</label><br>  
+            <input type="date" name="checkout" required><br>
+            <label>Adults</label><br>
+            <input type="number" name="adults" min="1" max="5" value="1" required><br>
+            <label>Kids</label><br>
+            <input type="number" name="kids" min="0" max="5" value="0"><br>
+            <input type="submit" value="Search Availability">
+        </div>    
+    </form><br>
+
+    <div class="di2">
+    <h2>Get the best offers first!</h2>
+    <p>Join with Us.</p>
+    <label>E-mail</label><br>
+    <input class="i1" type="text" placeholder="Your Email address" name="email" required><br>
+    <button type="button" class="b1">Subscribe</button>
+  </div><br>
+    
+    <div class="di3">
+        <h1>Contact Us</h1>
+        <p>If you have any question you can send massege to us.</p>
+  <form>
+    <label>First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label>Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+     <label>Email</label>
+    <input type="text" id="lname" name="email" placeholder="Your email.."> 
+
+    <label>Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label>Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Send">
+  </form>
+</div><br>
+    
+    <div id="footer">
+       <h3>Follow Us On</h3>
+        <a href="https://www.facebook.com/laktravelling.lk"><img src="Image/facebook-logo-3.png" width="40px" height="40px"></a>
+        <a href="https://www.instagram.com/laktravelling.lk"><img src="Image/Instagram_icon.png" width="40px" height="40px"></a>
+        <a href="https://www.twitter.com/laktravelling.lk"><img src="Image/Twitter-Download-PNG.png" width="40px" height="40px"></a>
+        <p>Laktavelling.lk helps to make your travel. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.<br>Copyright © 2019 Laktravelling.lk All Rights Reserved. </p>
+        <p><a href="https://github.com/shashinherath">Developed by Shashin Herath</a></p>
+    </div>
+
+    
+    </body>
+</html>
